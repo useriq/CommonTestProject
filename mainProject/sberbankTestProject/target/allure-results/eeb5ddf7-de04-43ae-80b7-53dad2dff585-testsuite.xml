@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1471231845958" stop="1471231927853" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Поиск ноутбуков HP и Lenovo</name>
+    <title>Поиск ноутбуков HP и Lenovo</title>
+    <test-cases>
+        <test-case start="1471231845958" stop="1471231845958" status="passed">
+            <name>Когда открыт браузер "chrome"</name>
+            <title>Когда открыт браузер "chrome"</title>
+            <failure>
+                <message>ElementNotFound: Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+Expected: exist</message>
+                <stack-trace>Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+Expected: exist
+Screenshot: file:/C:/Users/Администратор/mainProject/sberbankTestProject/build/reports/tests/1471231796285.0.png
+Timeout: 20 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]"}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:82)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:137)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:85)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:61)
+	at com.sun.proxy.$Proxy17.waitUntil(Unknown Source)
+	at main.java.page.CommonYandexMarketPage.checkFindProduct(CommonYandexMarketPage.java:132)
+	at test.java.steps.CommonYandexMarketPageSteps.checkFindProduct(CommonYandexMarketPageSteps.java:101)
+	at ✽.То отображен продукт с искомым наименованием(checkProductsLaptop.feature:24)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir5860_22757}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 21dcd0120f81e1ba3d872e2deda67ef8
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:56)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:137)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:85)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:61)
+	at com.sun.proxy.$Proxy17.waitUntil(Unknown Source)
+	at main.java.page.CommonYandexMarketPage.checkFindProduct(CommonYandexMarketPage.java:132)
+	at test.java.steps.CommonYandexMarketPageSteps.checkFindProduct(CommonYandexMarketPageSteps.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231853595" stop="1471231853595" status="passed">
+            <name>И открыт url "yandex.ru"</name>
+            <title>И открыт url "yandex.ru"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231854167" stop="1471231854167" status="passed">
+            <name>То открыта главная страница yandex.ru</name>
+            <title>То открыта главная страница yandex.ru</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231868582" stop="1471231868582" status="passed">
+            <name>Когда на главной странице выбран пункт меню услуг &gt; "Маркет"</name>
+            <title>Когда на главной странице выбран пункт меню услуг &gt; "Маркет"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231869157" stop="1471231869165" status="passed">
+            <name>То открыта главная страница Яндекс.Маркет</name>
+            <title>То открыта главная страница Яндекс.Маркет</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231869362" stop="1471231869362" status="passed">
+            <name>Когда выбран раздел меню &gt; "Компьютеры"</name>
+            <title>Когда выбран раздел меню &gt; "Компьютеры"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231879914" stop="1471231879914" status="passed">
+            <name>То открыта страница "Компьютерная техника"</name>
+            <title>То открыта страница "Компьютерная техника"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231884766" stop="1471231884766" status="passed">
+            <name>Когда выбран раздел левого меню "Компьютеры" &gt; "Ноутбуки"</name>
+            <title>Когда выбран раздел левого меню "Компьютеры" &gt; "Ноутбуки"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231885081" stop="1471231885081" status="passed">
+            <name>То открыта страница продуктов "Ноутбуки"</name>
+            <title>То открыта страница продуктов "Ноутбуки"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231894634" stop="1471231894634" status="passed">
+            <name>Когда нажата ссылка "Расширенный поиск"</name>
+            <title>Когда нажата ссылка "Расширенный поиск"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231895226" stop="1471231895226" status="passed">
+            <name>То открыта страница расширенного поиска продуктов "Ноутбуки"</name>
+            <title>То открыта страница расширенного поиска продуктов "Ноутбуки"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231895462" stop="1471231895462" status="passed">
+            <name>Когда в фильтре заполнена цена поиска до "30000" рублей</name>
+            <title>Когда в фильтре заполнена цена поиска до "30000" рублей</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231896423" stop="1471231896423" status="passed">
+            <name>И в фильтре выбран производитель "HP"</name>
+            <title>И в фильтре выбран производитель "HP"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231896936" stop="1471231896936" status="passed">
+            <name>И в фильтре выбран производитель "Lenovo"</name>
+            <title>И в фильтре выбран производитель "Lenovo"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231900289" stop="1471231900289" status="passed">
+            <name>И в "фильтре" нажата кнопка "Применить"</name>
+            <title>И в "фильтре" нажата кнопка "Применить"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231901053" stop="1471231901053" status="passed">
+            <name>То на странице отображено "10" товаров</name>
+            <title>То на странице отображено "10" товаров</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231901388" stop="1471231901388" status="passed">
+            <name>И запомнено наименование "1"-го товара в списке</name>
+            <title>И запомнено наименование "1"-го товара в списке</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231901929" stop="1471231901929" status="passed">
+            <name>Когда в поисковую строку Яндекс.Маркет введено "запомненное наименование"</name>
+            <title>Когда в поисковую строку Яндекс.Маркет введено "запомненное наименование"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231902576" stop="1471231902576" status="passed">
+            <name>И в "поиске" нажата кнопка "Найти"</name>
+            <title>И в "поиске" нажата кнопка "Найти"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1471231923330" stop="1471231923330" status="failed">
+            <name>То отображен продукт с искомым наименованием</name>
+            <title>То отображен продукт с искомым наименованием</title>
+            <failure>
+                <message>ElementNotFound: Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+Expected: exist</message>
+                <stack-trace>Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+Expected: exist
+Screenshot: file:/C:/Users/Администратор/mainProject/sberbankTestProject/build/reports/tests/1471231922657.1.png
+Timeout: 20 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]"}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:82)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:137)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:85)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:61)
+	at com.sun.proxy.$Proxy17.waitUntil(Unknown Source)
+	at main.java.page.CommonYandexMarketPage.checkFindProduct(CommonYandexMarketPage.java:132)
+	at test.java.steps.CommonYandexMarketPageSteps.checkFindProduct(CommonYandexMarketPageSteps.java:101)
+	at ✽.То отображен продукт с искомым наименованием(checkProductsNotebook.feature:23)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir4880_8380}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a5c60c4c334a429b0fe141e76ed46
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:56)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:137)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:85)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:61)
+	at com.sun.proxy.$Proxy17.waitUntil(Unknown Source)
+	at main.java.page.CommonYandexMarketPage.checkFindProduct(CommonYandexMarketPage.java:132)
+	at test.java.steps.CommonYandexMarketPageSteps.checkFindProduct(CommonYandexMarketPageSteps.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-ESJSNAH4946"/>
+                <label name="thread" value="2924@WIN-ESJSNAH4946.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Поиск ноутбуков HP и Lenovo"/>
+        <label name="feature" value="Undefined Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

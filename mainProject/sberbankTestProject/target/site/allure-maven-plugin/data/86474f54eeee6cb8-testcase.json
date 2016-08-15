@@ -1,0 +1,40 @@
+{
+  "uid" : "86474f54eeee6cb8",
+  "name" : "Когда выбран раздел меню > \"Компьютеры\"",
+  "title" : "Когда выбран раздел меню > \"Компьютеры\"",
+  "time" : {
+    "start" : 1471231869362,
+    "stop" : 1471231869362,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-ESJSNAH4946"
+  }, {
+    "name" : "thread",
+    "value" : "2924@WIN-ESJSNAH4946.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Поиск ноутбуков HP и Lenovo"
+  }, {
+    "name" : "feature",
+    "value" : "Undefined Feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

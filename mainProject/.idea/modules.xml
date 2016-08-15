@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainProject.iml" filepath="$PROJECT_DIR$/mainProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sberbankTestProject/sberbankTestProject.iml" filepath="$PROJECT_DIR$/sberbankTestProject/sberbankTestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yotaTestProject/yotaTestProject.iml" filepath="$PROJECT_DIR$/yotaTestProject/yotaTestProject.iml" />
+    </modules>
+  </component>
+</project>

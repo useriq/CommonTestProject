@@ -1,0 +1,43 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "5fdd3743abf868eb",
+      "failure" : {
+        "message" : "ElementNotFound: Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}\nExpected: exist",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "a4a8c542c9b85ac",
+        "name" : "То отображен продукт с искомым наименованием",
+        "title" : "То отображен продукт с искомым наименованием",
+        "time" : {
+          "start" : 1471231797588,
+          "stop" : 1471231797894,
+          "duration" : 306
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "192fd016befe03de",
+      "failure" : {
+        "message" : "ElementNotFound: Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}\nExpected: exist",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "b4831ac9e4ec4b07",
+        "name" : "То отображен продукт с искомым наименованием",
+        "title" : "То отображен продукт с искомым наименованием",
+        "time" : {
+          "start" : 1471231923330,
+          "stop" : 1471231923330,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

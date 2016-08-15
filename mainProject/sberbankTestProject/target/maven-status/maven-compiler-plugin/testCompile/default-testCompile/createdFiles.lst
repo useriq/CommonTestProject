@@ -1,0 +1,4 @@
+test\java\steps\CommonYandexMarketPageSteps.class
+test\java\steps\RunCucumberTest.class
+test\java\steps\CommonYandexPageSteps.class
+test\java\steps\CommonYandexSteps.class

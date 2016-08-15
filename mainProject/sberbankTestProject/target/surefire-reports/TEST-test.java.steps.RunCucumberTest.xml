@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.steps.RunCucumberTest" time="479.262" tests="43" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Администратор\mainProject\sberbankTestProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Администратор\mainProject\sberbankTestProject"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\836D~1\AppData\Local\Temp\2\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="classworlds.conf" value="C:\apache_maven_3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache_maven_3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Администратор"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Администратор"/>
+    <property name="java.class.path" value="C:\apache_maven_3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache_maven_3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Когда открыт браузер &quot;chrome&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="2.422"/>
+  <testcase name="И открыт url &quot;yandex.ru&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="То открыта главная страница yandex.ru" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0.025"/>
+  <testcase name="Когда на главной странице выбран пункт меню услуг &gt; &quot;Маркет&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="То открыта главная страница Яндекс.Маркет" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="Когда выбран раздел меню &gt; &quot;Компьютеры&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0.002"/>
+  <testcase name="То открыта страница &quot;Компьютерная техника&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="Когда выбран раздел левого меню &quot;Компьютеры&quot; &gt; &quot;Планшеты&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0.02"/>
+  <testcase name="То открыта страница продуктов &quot;Планшеты&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="Когда нажата ссылка &quot;Расширенный поиск&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="То открыта страница расширенного поиска продуктов &quot;Планшеты&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="Когда в фильтре заполнена цена поиска от &quot;20000&quot; рублей" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="И в фильтре заполнена цена поиска до &quot;30000&quot; рублей" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="И в фильтре выбран производитель &quot;Acer&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="И в фильтре выбран производитель &quot;DELL&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="И в &quot;фильтре&quot; нажата кнопка &quot;Применить&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="То на странице отображено &quot;10&quot; товаров" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="И запомнено наименование &quot;1&quot;-го товара в списке" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="Когда в поисковую строку Яндекс.Маркет введено &quot;запомненное наименование&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="И в &quot;поиске&quot; нажата кнопка &quot;Найти&quot;" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0"/>
+  <testcase name="То отображен продукт с искомым наименованием" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0.241">
+    <failure message="Element not found {By.xpath: //div[@class=&apos;product-card__header&apos;]//h1[contains(text(),&apos;Acer One 10 Z3735F 32Gb&apos;)]}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir5860_22757}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 21dcd0120f81e1ba3d872e2deda67ef8
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+</failure>
+    <system-out><![CDATA[&amp#27;[32m2016-08-15 06:29:35.763  &amp#27;[34mПроверяем, что найден искомый продукт Acer One 10 Z3735F 32Gb&amp#27;[0m
+&amp#27;[34m<b>Проверяем, что найден искомый продукт Acer One 10 Z3735F 32Gb</b>&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" classname="Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell" time="0.331">
+    <failure message="Element not found {By.xpath: //div[@class=&apos;product-card__header&apos;]//h1[contains(text(),&apos;Acer One 10 Z3735F 32Gb&apos;)]}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir5860_22757}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 21dcd0120f81e1ba3d872e2deda67ef8
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+</failure>
+  </testcase>
+  <testcase name="Когда открыт браузер &quot;chrome&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="И открыт url &quot;yandex.ru&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То открыта главная страница yandex.ru" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="Когда на главной странице выбран пункт меню услуг &gt; &quot;Маркет&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То открыта главная страница Яндекс.Маркет" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="Когда выбран раздел меню &gt; &quot;Компьютеры&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То открыта страница &quot;Компьютерная техника&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0.001"/>
+  <testcase name="Когда выбран раздел левого меню &quot;Компьютеры&quot; &gt; &quot;Ноутбуки&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То открыта страница продуктов &quot;Ноутбуки&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="Когда нажата ссылка &quot;Расширенный поиск&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То открыта страница расширенного поиска продуктов &quot;Ноутбуки&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="Когда в фильтре заполнена цена поиска до &quot;30000&quot; рублей" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="И в фильтре выбран производитель &quot;HP&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="И в фильтре выбран производитель &quot;Lenovo&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="И в &quot;фильтре&quot; нажата кнопка &quot;Применить&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То на странице отображено &quot;10&quot; товаров" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="И запомнено наименование &quot;1&quot;-го товара в списке" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0.001"/>
+  <testcase name="Когда в поисковую строку Яндекс.Маркет введено &quot;запомненное наименование&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="И в &quot;поиске&quot; нажата кнопка &quot;Найти&quot;" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0"/>
+  <testcase name="То отображен продукт с искомым наименованием" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0">
+    <failure message="Element not found {By.xpath: //div[@class=&apos;product-card__header&apos;]//h1[contains(text(),&apos;Lenovo IdeaPad 100 15&apos;)]}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir4880_8380}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a5c60c4c334a429b0fe141e76ed46
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+</failure>
+    <system-out><![CDATA[&amp#27;[32m2016-08-15 06:31:42.580  &amp#27;[34mПроверяем, что найден искомый продукт Lenovo IdeaPad 100 15&amp#27;[0m
+&amp#27;[34m<b>Проверяем, что найден искомый продукт Lenovo IdeaPad 100 15</b>&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Сценарий: Поиск ноутбуков HP и Lenovo" classname="Сценарий: Поиск ноутбуков HP и Lenovo" time="0.006">
+    <failure message="Element not found {By.xpath: //div[@class=&apos;product-card__header&apos;]//h1[contains(text(),&apos;Lenovo IdeaPad 100 15&apos;)]}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir4880_8380}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a5c60c4c334a429b0fe141e76ed46
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+</failure>
+  </testcase>
+</testsuite>

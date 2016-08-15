@@ -1,0 +1,40 @@
+{
+  "uid" : "15f46cb2623a1256",
+  "name" : "То открыта главная страница Яндекс.Маркет",
+  "title" : "То открыта главная страница Яндекс.Маркет",
+  "time" : {
+    "start" : 1471231722058,
+    "stop" : 1471231722058,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-ESJSNAH4946"
+  }, {
+    "name" : "thread",
+    "value" : "2924@WIN-ESJSNAH4946.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Поиск в яндекс-маркете планшетов Acer и Dell"
+  }, {
+    "name" : "feature",
+    "value" : "Undefined Feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

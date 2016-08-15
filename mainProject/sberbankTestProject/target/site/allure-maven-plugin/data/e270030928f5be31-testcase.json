@@ -1,0 +1,40 @@
+{
+  "uid" : "e270030928f5be31",
+  "name" : "Когда выбран раздел левого меню \"Компьютеры\" > \"Планшеты\"",
+  "title" : "Когда выбран раздел левого меню \"Компьютеры\" > \"Планшеты\"",
+  "time" : {
+    "start" : 1471231749502,
+    "stop" : 1471231749502,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-ESJSNAH4946"
+  }, {
+    "name" : "thread",
+    "value" : "2924@WIN-ESJSNAH4946.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Поиск в яндекс-маркете планшетов Acer и Dell"
+  }, {
+    "name" : "feature",
+    "value" : "Undefined Feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

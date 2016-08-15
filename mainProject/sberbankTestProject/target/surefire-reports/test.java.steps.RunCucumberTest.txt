@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: test.java.steps.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 479.262 sec <<< FAILURE! - in test.java.steps.RunCucumberTest
+То отображен продукт с искомым наименованием(Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell)  Time elapsed: 0.241 sec  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir5860_22757}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 21dcd0120f81e1ba3d872e2deda67ef8
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+
+Сценарий: Поиск в яндекс-маркете планшетов Acer и Dell  Time elapsed: 0.331 sec  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir5860_22757}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 21dcd0120f81e1ba3d872e2deda67ef8
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Acer One 10 Z3735F 32Gb')]}
+
+То отображен продукт с искомым наименованием(Сценарий: Поиск ноутбуков HP и Lenovo)  Time elapsed: 0 sec  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir4880_8380}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a5c60c4c334a429b0fe141e76ed46
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+
+Сценарий: Поиск ноутбуков HP и Lenovo  Time elapsed: 0.006 sec  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]"}
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-ESJSNAH4946', ip: '137.74.158.243', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\836D~1\AppData\Local\Temp\2\scoped_dir4880_8380}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.116, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a5c60c4c334a429b0fe141e76ed46
+*** Element info: {Using=xpath, value=//div[@class='product-card__header']//h1[contains(text(),'Lenovo IdeaPad 100 15')]}
+

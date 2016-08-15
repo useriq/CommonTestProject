@@ -1,0 +1,40 @@
+{
+  "uid" : "b71baf019d779eec",
+  "name" : "То открыта страница расширенного поиска продуктов \"Ноутбуки\"",
+  "title" : "То открыта страница расширенного поиска продуктов \"Ноутбуки\"",
+  "time" : {
+    "start" : 1471231895226,
+    "stop" : 1471231895226,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-ESJSNAH4946"
+  }, {
+    "name" : "thread",
+    "value" : "2924@WIN-ESJSNAH4946.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Поиск ноутбуков HP и Lenovo"
+  }, {
+    "name" : "feature",
+    "value" : "Undefined Feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
