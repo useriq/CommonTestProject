@@ -12,26 +12,6 @@ import static com.codeborne.selenide.Selenide.$;
  */
 public class ButtonWeb extends ElementWeb{
 
-    public ButtonWeb(String name) {
-        super("button");
-        this.name = name;
-
-        if (name.equalsIgnoreCase("вход")) {
-            getLoginButton();
-        }
-        if (name.equalsIgnoreCase("выход")) {
-            getLogoutButton();
-        }
-        if (name.equalsIgnoreCase("вернуться")) {
-            getReturnButton();
-        }
-        if (this.object == null) {
-            Log.Error("Кнопка " + name + " не найдена");
-        } else {
-            Log.Info("\u001B[36m" + "Кнопка " + name + " найдена" + "\u001B[0m");
-        }
-    }
-
     public ButtonWeb(By locator, String name) {
         super("button");
         this.name = name;
@@ -53,30 +33,6 @@ public class ButtonWeb extends ElementWeb{
 
     private void setButton(WebElement button) {
         this.object = button;
-    }
-
-    private void getLoginButton() {
-        try {
-            setButton($(By.xpath(".//*[@id='submitImage']")));
-        } catch (NoSuchElementException e) {
-            setButton(null);
-        }
-    }
-
-    private void getLogoutButton() {
-        try {
-            setButton($(By.xpath(".//*[@class = \"main-menu-sprite sprite-LOGOUT\"]")));
-        } catch (NoSuchElementException e) {
-            setButton(null);
-        }
-    }
-
-    private void getReturnButton() {
-        try {
-            setButton($(By.xpath(".//*[@id='returnToLoginFormButton']//td")));
-        } catch (NoSuchElementException e) {
-            setButton(null);
-        }
     }
 
 
